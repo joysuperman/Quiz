@@ -1,9 +1,12 @@
+import '../styles/App.css';
+import Layout from './layout/layout';
+import Home from './pages/home/Home'
 function App() {
 
   return (
-    <>
-      <h1>Hello Word</h1>
-    </>
+    <Layout>
+        <Home/>
+    </Layout>
   )
 }
 
