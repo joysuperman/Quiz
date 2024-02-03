@@ -4,10 +4,10 @@ export default function Account() {
   return (
     <div className={classes.account}>
         <span className="material-icons-outlined"  title="Account">
-          account_circle
+            account_circle
         </span>
         <Link to="/signup">Signup</Link>
-        {/* <span className={classes.material-icons-outlined} title="Logout"> logout </span> */}
-      </div>
+        <span className="material-icons-outlined" title="Logout"> logout </span>
+    </div>
   )
 }
